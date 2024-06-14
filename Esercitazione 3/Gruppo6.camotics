@@ -1,0 +1,32 @@
+{
+      "units": "metric",
+      "resolution-mode": "very_high",
+      "resolution": 1,
+      "tools": {
+        "1": {
+          "units": "metric",
+          "shape": "cylindrical",
+          "length": 70,
+          "diameter": 36,
+          "description": ""
+        },
+        "2": {
+          "units": "metric",
+          "shape": "cylindrical",
+          "length": 42,
+          "diameter": 18,
+          "description": ""
+        }
+      },
+      "workpiece": {
+        "automatic": false,
+        "margin": 5,
+        "bounds": {
+          "min": [0, 0, 0],
+          "max": [238, 108, 10]
+        }
+      },
+      "files": [
+        "Gcode.nc"
+      ]
+    }
